@@ -1,5 +1,5 @@
 This is a basic CRUD (CREATE, READ, UPDATE AND DELETE) from the Fake Store API created by Platzi,
-In this repo you can see the basic use of Async/ Await functions, DOM, JS Fundaments, HTML and CSS
+In this repo you can see the basic use of Async/ Await functions, DOM, JS Fundamentals, HTML and CSS
 
 ## USE OF THE SYSTEM ##
 
