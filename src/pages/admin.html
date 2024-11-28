@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>FAKE STORE API CRUD</title>
+</head>
+<body>
+    <h1>DASHBOARD</h1>
+    <nav class = 'menu'>
+        <a id = 'post'>POST</a>
+        <a id = 'update'> UPDATE</a>
+        <a id  = 'delete'>DELETE</a>
+
+    </nav>
+    
+    <div class = 'post-container'>
+        <form action="" id = 'post-form'>
+            <div class = 'product-name'>
+                <label for="title"> Nombre del producto</label>
+                <input type="text" name="title" id="title">
+
+            </div>
+            <div class = 'product-price'>
+                <label for="price">Precio del producto</label>
+                <input type="number" name="price" id="price">
+            </div>
+            <div class = 'product-description'>
+                <label for="description">Descripcion del producto</label>
+                <input type="text" name="description" id="description">
+            </div>
+
+            <div class = 'product-category'>
+                <label for="category"> Numero de la categoria</label>
+                <input type="number" name = "category" id = "category">
+            </div>
+            <input type="submit" value="POST" id = 'post-button'>
+
+        </button>
+
+        </form>
+    </div>
+
+    <div class = 'update-id-container'>
+        <form action="" class="update-id-form" id = 'update-id-form'>
+            <label for="id">ID del producto</label>
+            <input type="number" name="id" id="id">
+            <input type="submit" value="BUSCAR" id = 'update-button'>
+        </form>
+    </div>
+    <div class = "update-container">
+        <form action="" class = "update-form">
+            <label for="update-title"> Nombre del producto</label>
+            <input type="text" name="title" id="update-title">
+
+            <label for="update-price">Precio del producto</label>
+            <input type="number" name="price" id="update-price">
+
+            <label for="update-description">Descripcion del producto</label>
+            <input type="text" name="description" id="update-description">
+            
+            <label for="update-category"> Numero de la categoria</label>
+            <input type="number" name = "category" id = "update-category">
+
+            <input type="submit" value="UPDATE" id = 'update-button'>
+
+        </form>
+    </div>
+            
+
+        
+    
+
+    <div class = 'delete-container'>
+        <form action="" class = "delete-form" id = 'delete-form'>
+            <label for="id">ID del producto</label>
+            <input type="number" name="id" id="delete-id">
+            <input type="submit" value = 'DELETE' id = "delete-button">
+        </form>
+    </div>
+
+    <script type = 'module' src = '../scripts/admin.js'></script>
+</body>
+</html>

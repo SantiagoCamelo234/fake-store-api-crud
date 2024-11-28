@@ -1,0 +1,202 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+
+
+.post-container{
+    display: none;
+    
+}
+
+#post-form{
+    display: grid;
+    place-items: center;
+    margin: 128px;
+    background-color:#4CAF50;
+}
+
+.update-container{
+    display: none;
+}
+
+.delete-container{
+    display: none;
+}
+.update-id-container{
+    display: none;
+}
+
+.product-container{
+    display: none;
+}   
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 24px;
+    text-align: center;
+}
+.login-form{
+    text-align: center;
+    justify-content: start;
+    border: 2px solid black;
+    padding: 60px;
+    border-radius: 16px;
+    background-color: white;
+
+    
+
+    
+}
+
+.login-form div:nth-child(1), .login-form div:nth-child(2){
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: 24px;
+    align-items: start;
+    font-weight: bold;
+}
+
+.login-form div:nth-child(1) input, .login-form div:nth-child(2) input{
+    padding: 8px;
+    margin: 16px;
+    border: 1px solid black;
+    border-radius: 18px;
+}
+
+#loginBtn{
+    padding: 12px;
+    margin: 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.menu a{
+   
+    border: none;
+    cursor: pointer;
+}
+
+.menu a:hover{
+    background-color: white;
+    color: #4CAF50;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+
+label {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 24px;
+    text-align: center;
+}
+
+#post-form, .update-form, #delete-form, #update-id-form, #product-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 128px;
+    background-color: #4CAF50;
+    border-radius: 16px;
+    padding: 24px;
+    
+   
+}
+
+ #post-form input {
+    padding: 8px;
+    margin: 8px;
+    border: 1px solid #4CAF50;
+    border-radius: 18px;
+}
+
+#post-button, #update-button, #delete-button, #update-id-button, #product-button {
+    padding: 12px;
+    margin: 16px;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    background-color: white;
+    color: #4CAF50;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.update-id-form input:nth-child(2), .delete-form input:nth-child(2), .update-form input:nth-child(2){
+    padding: 8px;
+    margin: 8px;
+    border: 1px solid #4CAF50;
+    border-radius: 18px;
+}
+
+.login-label{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 24px;
+    text-align: center;
+}
+
+.product-card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+    padding: 14px;
+    background-color: #4CAF50;
+    border-radius: 24px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.product-card img{
+    width: 200px;
+    height: 200px;
+    
+}
